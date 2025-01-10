@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Base styles for all screen sizes */
+.responsive-text {
+  width: 100%; /* Default to full width */
+  max-width: 600px; /* Limit the width to 600px */
+  margin: 0 auto; /* Center align for aesthetics */
+  font-size: 16px; /* Default font size */
+}
+
+/* Media query for tablets (768px and up) */
+@media (min-width: 768px) {
+  .responsive-text {
+      max-width: 800px; /* Increase text width for tablets */
+      font-size: 18px; /* Slightly larger font size */
+  }
+}
+
+/* Media query for desktops (1024px and up) */
+@media (min-width: 1024px) {
+  .responsive-text {
+      max-width: 1000px; /* Wider text area for desktops */
+      font-size: 20px; /* Larger font size */
+  }
+}
