@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="sticky" style={{backgroundColor: "#1111"}}>
+    <AppBar position="sticky" style={{backgroundColor: "#0f172a"}}>
       <Toolbar >
         <Typography variant="h16" sx={{ flexGrow: 1 }}>
         <Avatar alt="User Avatar" src="https://i.pinimg.com/236x/5c/89/de/5c89de5b52165f998c117167eb380278.jpg" sx={{ width: 60, height: 60, mr: 2 }} />
