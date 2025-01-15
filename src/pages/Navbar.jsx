@@ -13,10 +13,10 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="sticky" style={{backgroundColor: "#0f172a"}}>
+    <AppBar position="sticky" className='justify-center' style={{backgroundColor: "#17263a", marginBottom:'2px', marginTop:'10px',opacity:1, border:'none', height:'100px'}}>
       <Toolbar >
         <Typography variant="h16" sx={{ flexGrow: 1 }}>
-        <Avatar alt="User Avatar" src="https://i.pinimg.com/236x/5c/89/de/5c89de5b52165f998c117167eb380278.jpg" sx={{ width: 60, height: 60, mr: 2 }} />
+        <Avatar alt="User Avatar" src="https://i.pinimg.com/236x/5c/89/de/5c89de5b52165f998c117167eb380278.jpg" sx={{ width: 60, height: 60, mr: 2, backgroundColor:'#1f2937'}} />
 
         </Typography>
         
@@ -27,7 +27,8 @@ const Navbar = () => {
       marginRight: 2,
       '&:hover': {
         backgroundColor: '#f0f0f0',
-        color: "#000000"
+        color: "#000000",
+        transform:'scale-1.25'
       },
     }}>
             Home

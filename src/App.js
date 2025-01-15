@@ -11,7 +11,7 @@ import Contact from './pages/Contact'
 
 function MainLayout() {
   return (
-    <div className='bg-gradient-to-b from-slate-900 to-slate-500 scroll-smooth'>
+    <div>
       <Navbar />
       <Outlet />
       <Footer />
@@ -20,7 +20,7 @@ function MainLayout() {
 }
 function App() {
   return (
-    <div>
+    <div className="container mx-auto px-4">
       <BrowserRouter>
         <Routes>
           <Route element={<MainLayout />}>
