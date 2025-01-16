@@ -54,7 +54,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="h-screen w-full flex flex-col items-center justify-center bg-gray-800 px-4">
+        <div className="h-screen w-full flex flex-col items-center justify-center px-4">
             <h1 className="text-center font-bold text-3xl text-white mb-8">Get In Touch</h1>
             <form
                 onSubmit={handleSubmit}

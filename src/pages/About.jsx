@@ -11,8 +11,8 @@ function About() {
         <>
 
             
-            <div className='container mx-auto px-8 text-white h-screen w-screen'>
-                <h1 className='text-3xl text-center font-bold mb-12'>Welcome to My Portfolio!</h1>
+            <div className='container mx-auto px-8 text-white h-screen w-screen '>
+                <h1 className='text-3xl text-center font-bold mb-12 mt-5'>Welcome to My Portfolio!</h1>
                 <div className='md:flex md:space-x-12'>
                     <div className='md:w-1/2 md-8 md:md-0' >
                         <p className="prose max-w-3xl text-white-700 leading-relaxed ">
