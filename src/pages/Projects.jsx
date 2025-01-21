@@ -8,14 +8,14 @@ const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio website .",
     image: portfolio,
-    link: "https://portfolio-green-pi-64.vercel.app/",
+    link: "https://daniel-kinuthia.vercel.app/",
     techStack: 'Tech Stack : React.js, TailWind'
   },
   {
     title: "Expense Tracker",
     description: "An application to track your daily expenses",
     image: expenseTracker,
-    link: "https://example-expense-tracker.com/",
+    link: "https://maina2907.github.io/expense-tracker-app/",
     techStack: 'Tech Stack : React.js, Flask, CSS',
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     description:
       "ShopHorizon is a robust e-commerce platform designed to enhance the online shopping experience. It provides users with a user-friendly interface to browse products, compare prices across various sites, and securely manage their shopping sessions. The platform is equipped with features that ensure both convenience and security for its users.",
     image: ecommerce,
-    link: 'https://maina2907.github.io/expense-tracker-app/',
+    link: 'https://shoppers-community.vercel.app/',
     techStack: 'Tech Stack : React.js, Flask, TailWind',
   },
 ];

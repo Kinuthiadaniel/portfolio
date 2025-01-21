@@ -2,6 +2,7 @@
 import * as React from 'react';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom'
 
 function Landing() {
 
@@ -19,9 +20,13 @@ function Landing() {
                     </p>
                     <div className='my-10 flex justify-center'>
                         <Stack spacing={2} direction="row">
+                            <Link to='/projects'>
+                                <Button variant="contained" >View Projects</Button>
+                            </Link>
+                            <Link to='/about'>
+                                <Button variant="contained" className='mx-10'>About Me</Button>
+                            </Link>
 
-                            <Button variant="contained" >View Projects</Button>
-                            <Button variant="contained" className='mx-10'>About Me</Button>
                         </Stack>
                     </div>
 
