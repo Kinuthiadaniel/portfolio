@@ -38,7 +38,7 @@ const ContactForm = () => {
       });
 
       if (response.ok) {
-        setStatus("Message sent successfully!");
+        alert(setStatus("Message sent successfully!"));
         setFormData({ name: "", email: "", message: "" }); // Reset form
       } else {
         setStatus("Failed to send the message. Please try again.");

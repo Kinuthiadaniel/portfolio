@@ -1,29 +1,50 @@
-import React from 'react'
+import React from 'react';
 import Avatar from '@mui/material/Avatar';
+
 function Footer() {
     return (
+        <div className="mt-16 text-gray-200 bg-gray-800 py-4">
+            {/* Social Links */}
+            <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-4 space-y-4 sm:space-y-0">
+                {/* LinkedIn */}
+                <a 
+                    href="https://www.linkedin.com/in/daniel-kinuthia-274ba629b/" 
+                    className="flex items-center space-x-2 hover:text-blue-500 transition" 
+                    rel="noreferrer" 
+                    target="_blank"
+                >
+                    <Avatar
+                        src="https://static.vecteezy.com/system/resources/previews/016/716/470/non_2x/linkedin-icon-free-png.png"
+                        alt="LinkedIn Profile"
+                        sx={{ width: 40, height: 40 }}
+                    />
+                    <span>LinkedIn</span>
+                </a>
 
-        <div className='mt-16 text-gray-200'>
-           
-            <div className="flex justify-center">
-                <a href="https://www.linkedin.com/in/daniel-kinuthia-274ba629b/" className="mr-2" rel='noreferrer' target="_blank">   <Avatar
-                    src="https://static.vecteezy.com/system/resources/previews/016/716/470/non_2x/linkedin-icon-free-png.png"
-                    alt="LinkedIn Profile"
-                    sx={{ width: 40, height: 40 }} /> LinkedIn</a>
-                <a href="https://github.com/Kinuthiadaniel" className="mr-2" rel='noreferrer' target="_blank">   <Avatar
-                    src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                    alt="Github Profile"
-                    sx={{ width: 40, height: 40}} 
-                    
-                     /> Github</a>
-                     
+                {/* Github */}
+                <a 
+                    href="https://github.com/Kinuthiadaniel" 
+                    className="flex items-center space-x-2 hover:text-gray-400 transition" 
+                    rel="noreferrer" 
+                    target="_blank"
+                >
+                    <Avatar
+                        src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                        alt="Github Profile"
+                        sx={{ width: 40, height: 40 }}
+                    />
+                    <span>Github</span>
+                </a>
             </div>
-            <div className="flex justify-center">
-                <p className='my-2'>
-                    &copy; Daniel Kinuthia  2025.  All rights reserved
+
+            {/* Copyright */}
+            <div className="flex justify-center mt-4">
+                <p className="text-center text-sm sm:text-base">
+                    &copy; Daniel Kinuthia 2025. All rights reserved.
                 </p>
             </div>
         </div>
-    )
+    );
 }
-export default Footer
+
+export default Footer;
