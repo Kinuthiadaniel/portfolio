@@ -40,7 +40,7 @@ function Footer() {
             {/* Copyright */}
             <div className="flex justify-center mt-4">
                 <p className="text-center text-sm sm:text-base">
-                    &copy; Daniel Kinuthia 2025. All rights reserved.
+                &copy; {new Date().getFullYear()} Daniel Kinuthia. All rights reserved.
                 </p>
             </div>
         </div>

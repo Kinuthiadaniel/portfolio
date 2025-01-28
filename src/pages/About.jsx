@@ -8,7 +8,7 @@ import flask from '../images/images.png'
 import firebase from '../images/download.png'
 function About() {
     return (
-        <>
+        <footer className='w-full'>
 
             
             <div className='container mx-auto px-8 text-white h-screen w-screen '>
@@ -81,7 +81,7 @@ function About() {
 
           
 
-        </>
+        </footer>
 
 
     )
