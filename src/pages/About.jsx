@@ -11,7 +11,7 @@ function About() {
         <footer className='w-full'>
 
             
-            <div className='container mx-auto px-8 text-white h-screen w-screen '>
+            <div className='container px-4 sm:px-6 lg:px-8 mx-auto px-8 text-white h-screen w-screen '>
                 <h1 className='text-3xl text-center font-bold mb-12 mt-5'>Welcome to My Portfolio!</h1>
                 <div className='md:flex md:space-x-12'>
                     <div className='md:w-1/2 md-8 md:md-0' >
