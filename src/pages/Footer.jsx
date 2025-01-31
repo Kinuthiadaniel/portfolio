@@ -3,8 +3,8 @@ import Avatar from '@mui/material/Avatar';
 
 function Footer() {
     return (
-        <footer className='w-full'>
-        <div className="px-4 sm:px-6 lg:px-8 mt-16 text-gray-200 bg-gray-800 py-4">
+        <footer className=''>
+        <div className=" w-full py-8 px-4 px-4 sm:px-6 lg:px-8 mt-4 text-gray-200  py-4">
             {/* Social Links */}
             <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-4 space-y-4 sm:space-y-0">
                 {/* LinkedIn */}
