@@ -29,10 +29,12 @@ const projects = [
 ];
 
 const ProjectCard = ({ project, handleClick }) => (
+
   <div
     onClick={() => handleClick(project)}
     className="max-w-sm rounded overflow-hidden shadow-lg bg-slate text-white transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer"
   >
+
     <img
       className="w-full h-48 object-cover"
       src={project.image}
@@ -42,7 +44,7 @@ const ProjectCard = ({ project, handleClick }) => (
       <h3 className="font-bold text-xl mb-2">{project.title}</h3>
       <p className="text-gray-200 text-base mb-5">{project.description}</p>
       <p className="text-gray-200 text-base">{project.techStack}</p>
-      
+
     </div>
     <div className="px-6 pt-4 pb-2">
       <a
@@ -65,11 +67,13 @@ const Projects = () => {
 
   return (
     <div className="min-h-screen bg-slate-800 py-8 px-4">
-      <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
+      <h1 className="text-4xl font-bold text-center text-white mb-8">
         My Projects
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
         {projects.map((project, index) => (
+
           <ProjectCard key={index} project={project} handleClick={handleClick} />
         ))}
       </div>
